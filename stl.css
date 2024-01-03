@@ -1,0 +1,248 @@
+/* Global CSS */
+
+*{
+    font-family: 'Open Sans', sans-serif;
+    margin:0px;
+}
+
+.btn-primary{
+    background-color: #FD6E0A;
+    border:0;
+    font-size: 16px;
+    padding:18px 35px;
+    border-radius:5px;
+    color:white;
+    cursor: pointer;
+}
+
+.btn-secondary{
+    border:1px solid #FD6E0A;
+    padding:18px 45px;
+    font-size: 16px;
+    border-radius:5px;
+    color:#FD6E0A;
+    cursor: pointer;
+}
+.btn-secondary:hover{
+   background-color: #FD6E0A;
+    color:white;
+    cursor: pointer;
+}
+
+
+
+/* Regular CSS */
+
+.top-header{
+    background-color: #fff8f3;
+    background-image: url('image/header_bg.png'), url('image/developer.png');
+    background-repeat: no-repeat;
+    background-position: bottom right,left;
+}
+
+.top-header-row{
+    display:flex;
+    justify-content: space-between;
+    margin: 0px 100px 0px 150px;
+    padding-top:50px;
+}
+
+.top-header-row nav{
+    display:flex;
+    align-items: center;
+}
+
+.top-header-row nav ul{
+    display:flex;
+}
+.top-header-row nav ul li{
+    list-style:none;
+    margin-right:50px;
+}
+
+.top-header-row nav ul li a{
+    text-decoration: none;
+    color:black;
+    font-size: 20px;
+}
+
+
+.header-p-content{
+    display:flex;
+    margin: 50px 100px 0px 150px;
+    align-items: center;
+}
+
+.S-title{
+     font-family: 'open sans';
+     font-style: normal;
+     font-weight: 600;
+     font-size: 38px;
+     line-height: 61px;
+}
+.B-S-title{
+    font-family: 'open sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 116px;
+}
+.A-B-S-title{
+    font-family: 'open sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    margin-bottom:20px;
+}
+.extra{
+    margin-right:20px;
+}
+.contain{
+    padding-left:20px;
+    background-color: #fff8f3;
+}
+
+.top-header-row span{
+    color:#FD6E0A;
+}
+
+.desp-content{
+    height: 400px;
+    background: #f7d9c4;
+    border-radius: 10px;
+    margin: 150px 250px 120px 250px;
+}
+.A-desp-content h2{
+    padding-bottom: 15px;
+}
+.A-desp-content{
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: center;
+    padding: 82px 100px 0px 100px;
+}
+
+.B-desp-content{
+    display:flex;
+    justify-content: space-between;
+    padding-top:10px;
+    margin: 4px -26px 0px -10px;
+}
+.another-desp-content h1{
+    padding-bottom:15px;
+}
+.another-desp-content{
+    margin: 25px 280px 35px 280px;
+    text-align: center;
+}
+
+.mother-of-div{
+    display:flex;
+    justify-content: space-between;
+    margin: 20px 120px 50px 120px;
+    padding: 30px;
+}
+.A-box{
+    box-shadow: 5px 5px 15px gray;
+    height: 330px;
+    border-radius: 10px; 
+    margin: -3px 13px 0px 10px;
+}
+.mother-of-div .A-box .icon{
+    padding: 25px 0px 0px 18px;
+}
+.mother-of-div .A-box .icon-content{
+    padding: 25px 7px 0px 18px;
+    font-size: 15px;
+    line-height: 1.73;
+}
+.mother-of-div .A-box .icon-content h3{
+    padding-bottom: 15px;
+    font-size:25px;
+    font-weight: bold;
+}
+.title-content{
+    text-align: center;
+    margin-bottom: 40px;
+    font-size:25px;
+}
+
+.port-exp-content{
+    display: flex;
+    justify-content: space-between;
+    padding: 14px 160px 14px 160px
+}
+.A-a-exp-content h1{
+    padding-bottom: 15px;
+    font-size: 20px;
+}
+.A-a-exp-content h2{
+    padding-bottom: 8px;
+    font-size: 18px;
+}
+.A-a-exp-content span{
+    font-size: 16px;
+    font-weight: 600;
+    color:gray;
+}
+.A-a-exp-content p{
+    margin-top:6px;
+    margin-bottom: 40px;
+}
+.A-a-exp-content{
+    margin-bottom:40px;
+    margin: 20px;
+}
+.button-bt{
+    text-align: center;
+    margin-bottom: 100px;
+}
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+    padding: 60px 280px 16px 280px;
+}
+.form-f{
+    margin:20px;
+    margin-left: 0px;
+}
+.form-f input{
+    height: 40px;
+    width: 280px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    padding-left: 25px;
+}
+.form-fg{
+    margin:20px;
+    margin-left: 0px;
+}
+.form-fg textarea{
+   
+    width: 280px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    padding-left: 25px;
+    padding-top:10px;
+}
+.A-ft {
+    margin-right:62px;
+}
+
+.A-ft h1{
+    padding-bottom:20px;
+   
+}
+.icon-a{
+    display:flex;
+    padding:10px;
+}
+.icon-a img{
+    padding:10px;
+}
